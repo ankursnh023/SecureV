@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "291840478124",
+    "firebase_url": "https://geotest-8d80b.firebaseio.com",
+    "project_id": "geotest-8d80b",
+    "storage_bucket": "geotest-8d80b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291840478124:android:69ee0f8f198d7a7b",
+        "android_client_info": {
+          "package_name": "com.example.pavilion.geotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291840478124-6qa1bofsv8vnkcv302ho3uq25llop0h1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pavilion.geotest",
+            "certificate_hash": "0d6bbd24446c0d9b12ee4925086ef6b1f7d058e5"
+          }
+        },
+        {
+          "client_id": "291840478124-38eejbf390s7dnm9ltresf7iqls3ihgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiJUt-TtraVryWvKa6FxpVslAgD0Hpao8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291840478124-38eejbf390s7dnm9ltresf7iqls3ihgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="10dp"
+    android:id="@+id/login_layout"
+    android:paddingBottom="10dp"
+    android:background="@drawable/see2"
+    tools:context="com.example.pavilion.geotest.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="20dp"
+        android:text="SecureV"
+        android:id="@+id/t11"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/e11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        app:met_floatingLabel="highlight"
+        android:hint="Email"
+        android:maxLines="1"
+        app:met_baseColor="#fff"
+        app:met_primaryColor="#fff"
+        app:met_errorColor="#fff"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/e12"
+        android:layout_width="match_parent"
+        app:met_floatingLabel="highlight"
+        android:layout_marginTop="20dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:maxLength="10"
+        android:inputType="textPassword"
+        app:met_baseColor="#fff"
+        app:met_primaryColor="#fff"
+        app:met_errorColor="#fff"
+        android:maxLines="1"
+        />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="Remember me"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/b11"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="?android:attr/colorBackground"
+        android:clickable="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Login"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="#f16f7d" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:id="@+id/tt3"
+        android:textColor="#fff"
+        android:layout_marginLeft="160dp"/>
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/b13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:textColor="#f16f7d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not having account? "
+            android:id="@+id/b12"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b223"
+            android:text="Register Now"
+            android:textColor="#fff"
+
+            android:background="@android:color/transparent"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+

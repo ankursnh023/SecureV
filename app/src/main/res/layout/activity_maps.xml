@@ -1,0 +1,31 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pavilion.geotest.MapsActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8sp"
+            android:layout_alignParentRight="true">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:id="@+id/verticalseekbar"
+                android:progress="12"
+                android:max="20"
+                android:splitTrack="false"
+                app:seekBarRotation="CW270"
+                />
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    </RelativeLayout>
+
+</fragment>
